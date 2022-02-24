@@ -38,6 +38,10 @@ a:active {
   color: fuchsia;
 }
 
+.credit {
+  font-style: italic;
+}
+
 h1 {
   font-size: 5.5rem;
   font-weight: 700;
@@ -122,12 +126,11 @@ figcaption {
 }
 
 #intro {
-  font-size: 2.1rem;
-  margin-top: 7rem;
-  margin-bottom: 8.3rem;
+  font-size: 2.4rem;
+  margin-top: 4.3rem;
+  margin-bottom: 6rem;
   padding-inline: 1rem;
   text-align: justify;
-  /* text-justify: auto; */
 }
 
 main {
@@ -162,12 +165,17 @@ h3 {
   margin-inline: 2rem;
 }
 
+.by {
+  font-size: 1.15rem;
+}
+
 .movies {
   flex-basis: 50%;
   margin-inline: 2rem;
 }
 
 ul {
+  padding: 0.6rem;
   border: 0.6rem solid #505050
 }
 
@@ -183,6 +191,9 @@ li:nth-child(even) {
 
 .mp3 {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin-inline: 2rem;
   margin-block: 2rem;
   padding-top: 1rem;
@@ -294,9 +305,3 @@ address {
   padding-inline: 1rem;
   text-align: justify;
 }
-
-/* 3- Font Style  */
-
-/* 7- Hover, active links */
-
-/* Zip all the files (the HTML and CSS ) and submit them via Canvas just like how you did in assignment 2. */
